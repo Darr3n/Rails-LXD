@@ -75,7 +75,8 @@ chmod ugo+rwx /home/$USER/lxd_share/lxdrailsdemo
 # goto the new rails folder:
 cd lxdrailsdemo
 # start the rails app:
-rails s
+rails s  
+  
 
 That should do it, look at the output of lxc list to find the IP Address, open a browser to the rails5 container IPAddress:3000 on your host machine to see the rails info screen.  
   
