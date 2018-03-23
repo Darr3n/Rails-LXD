@@ -56,7 +56,7 @@ exit
 lxc config device add rails5 homedir disk source=/home/$USER/lxd_share path=/home/ubuntu/lxd_share
 # Link User Accounts:
 echo "root:$UID:1" | sudo tee -a /etc/subuid /etc/subgid
-# Set Read/Write access for containers:
+# Set Read/Write access for the container:
 lxc config set rails5 raw.idmap "both $UID 1000"
 # Restart container:
 lxc restart rails5
@@ -77,7 +77,7 @@ cd lxdrailsdemo
 # start the rails app:
 rails s
 
-That should do it, look at the output of lxc list to find the IP Address the open a browser to the rails5 container IPAddress:3000 on your host machine to see the rails info screen.
+That should do it, look at the output of lxc list to find the IP Address, open a browser to the rails5 container IPAddress:3000 on your host machine to see the rails info screen.
 
 
 Usefull info:
