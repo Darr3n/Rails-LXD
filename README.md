@@ -77,12 +77,14 @@ cd lxdrailsdemo
 # start the rails app:
 rails s
 
-That should do it, look at the output of lxc list to find the IP Address, open a browser to the rails5 container IPAddress:3000 on your host machine to see the rails info screen.
+That should do it, look at the output of lxc list to find the IP Address, open a browser to the rails5 container IPAddress:3000 on your host machine to see the rails info screen.  
+  
+  
+Usefull info:  
+mc - open midnight commander.  
+Create any projects within the shared lxd_share folder.  
+Change permissions for new folders created in the container.  
+Use GIT to work within the container.  
 
 
-Usefull info:
-mc - open midnight commander.
-Create any projects within the shared lxd_share folder.
-Change permissions for new folders created in the container.
-Use GIT to work within the container.
 
