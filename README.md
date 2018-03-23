@@ -1,19 +1,19 @@
 # Rails-LXD
 Ruby-On-Rails in a LXD Container
 
-Use LXD to install development software without altering the host (well, not too much).
-The steps required to create a Demo Rails development stack upon a local installation of ubuntu 16.04: 
+Use LXD to install development software without altering the host (well, not too much).  
+The steps required to create a Demo Rails development stack upon a local installation of ubuntu 16.04:  
 
-Software required for setup:
-Ubuntu 16.04 Desktop or server
-zfsutils-linux (will be installed by the script)
+Software required for setup:  
+Ubuntu 16.04 Desktop or server  
+zfsutils-linux (will be installed by the script)  
 
-Software to install within the container:
-RVM, which provides Ruby & Rails
-NodeJS
-Midnight Commander
+Software to install within the container:  
+RVM, which provides Ruby & Rails  
+NodeJS  
+Midnight Commander  
 
-setup:
+setup:  
 Copy & Paste the script below into a terminal window.
 
 # Update os:
